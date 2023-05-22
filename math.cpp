@@ -17,6 +17,9 @@ main()
     // Division
     x = 8 / 5;
 
+    // Remainder, modulus
+    x = 8 % 5;
+
     // Exponents, 8^5
     x = pow(8, 5);
 
