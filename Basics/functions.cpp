@@ -2,18 +2,19 @@
 
 using namespace std;
 
-// Write this at top or
+// Write this at top or create it at the top.
 void myFunction();
 
-// Create the function at the top
-void myFunction2(){
-    cout << "This is also a void function" << endl;
+// Function with parameters.
+int multiply(int x, int y){
+    int answer = x * y;
+    return answer;
 }
 
 main()
 {
     myFunction();
-    myFunction2();
+    cout << multiply(5, 7);
 }
 
 void myFunction(){
