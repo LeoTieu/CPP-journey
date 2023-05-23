@@ -5,26 +5,30 @@ using namespace std;
 class cat{
     // public so main can use it
     public:
+        // Constructor
+        // Initliazes at the object creation.
+        cat(string catName){
+            name = catName;
+        }
         void meow(){
             cout << "Meow meow meow" << endl;
         }
-        void setName(string catName){
+        void changeName(string catName){
             name = catName;
         }
         string getName(){
             return name;
         }
     // Only functions within the object
-    // can reach the variable name.
+    // can reach the variablea;  name.
     private:
         string name;
 };
 
 int main()
 {
-    cat myCat;
+    cat myCat("kitten");
     myCat.meow();
-    myCat.setName("kitten");
     cout << myCat.getName() << endl;
 
 }
