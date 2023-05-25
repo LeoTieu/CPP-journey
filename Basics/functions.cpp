@@ -6,15 +6,14 @@ using namespace std;
 void myFunction();
 
 // Function with parameters.
-int multiply(int x, int y){
-    int answer = x * y;
-    return answer;
-}
+int multiply(int x = 5, int y = 7){
+    return x * y;
+};
 
 main()
 {
     myFunction();
-    cout << multiply(5, 7);
+    cout << multiply();
 }
 
 void myFunction(){
