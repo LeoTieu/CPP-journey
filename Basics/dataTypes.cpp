@@ -14,6 +14,12 @@ main()
     char myGrade = 'A';
     char myCharacter = '%';
 
+    // Constant variables, unchangable values
+    const int constNumber = 5;
+    
+
+
+
     // Boolean values, T/F
     bool myBool = true;
     bool yourBool = false;
