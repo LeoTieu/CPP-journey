@@ -17,5 +17,8 @@ main()
             cout << "5";
         case 3:
             return 0;
+        default:
+            cout << "You did not enter a number between 1 and 3. Big sad";
+            break;
     }
     }
