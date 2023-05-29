@@ -9,7 +9,11 @@ main()
 
     // A pointer is created with an asterisk.
     int *numberPointer;
+    
     // Don't use asterisk after first one.
     numberPointer = &myNumber;
     cout << numberPointer << endl;
+
+    // Dereferencing
+    cout << *numberPointer << endl;
 }
